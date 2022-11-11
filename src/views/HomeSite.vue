@@ -42,7 +42,7 @@
           <div class="product-item">
             <div class="product-item-content">
               <div class="mb-3">
-                <img :src="'/src/assets/images/' + slotProps.data.images + '.PNG'" class="product-image" />
+                <img :src="'/src/assets/images/' + slotProps.data.images + '.png'" class="product-image" />
               </div>
               <div>
                 <h4 class="mb-1">{{ slotProps.data.name }}</h4>
@@ -73,7 +73,7 @@
           <div class="product-item">
             <div class="product-item-content">
               <div class="mb-3">
-                <img :src="'/src/assets/images/' + slotProps.data.images + '.PNG'" class="product-image" />
+                <img :src="'/src/assets/images/' + slotProps.data.images + '.png'" class="product-image" />
               </div>
               <div>
                 <h4 class="mb-1">{{ slotProps.data.name }}</h4>
